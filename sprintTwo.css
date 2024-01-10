@@ -1,0 +1,222 @@
+#main {
+    background-color: lightgray;
+    border-radius: 30px;
+    border: 10px solid silver;
+    /* border:  1px solid black; */
+}
+
+.header {
+    background-color: rgb(76,117,163);
+    display: flex;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-around;
+    /* border:  1px solid black; */
+}
+
+.header > span {
+    color: aliceblue;
+    /* border:  1px solid black; */
+}
+::placeholder {
+    font-style: italic;
+    font-size: 1em;
+    color: mintcream;
+    background: thistle;
+    padding: 5px;
+    /* border:  1px solid black; */
+  }
+input {
+    border-radius: 30px;
+    /* border:  1px solid black */
+}
+.Ernar {
+    /* padding-left: 50px; */
+    display: flex;
+    /* border:  1px solid black; */
+    gap:15px;
+    justify-content: center;
+    justify-self:center;
+}
+img {
+    width: 100%;
+
+}
+#left >span{
+    margin: 20px;
+    color: gray;
+    display: block;
+    /* border:  1px solid black; */
+}
+#Photo{
+    background-color:aliceblue;
+    padding: 10px;
+    border-radius:10px;
+    margin-top: 10px;
+    /* border:  1px solid black; */
+}
+button {
+    width: 100%;
+    text-align: center;
+    /* border:  1px solid black; */
+}
+.friend img {
+    border-radius: 50%;
+    /* border:  1px solid black; */
+}
+.friend {
+    text-align: center;
+    /* width: 100px; */
+    margin: 10px;
+    /* border:  1px solid black; */
+    
+}
+.edit-button {
+    background-color: gray;
+    color: white;
+    padding: 10px;  
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+    /* border:  1px solid black; */
+}
+button.edit-button:hover {
+    background-color: rgb(76, 117, 163);        
+}
+.FriendsList{
+    display: flex;
+    /* border:  1px solid black; */
+}
+.FriendsHead >span{
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.FriendsHead>span:nth-child(2){
+    opacity: 50%;
+}
+.Friends{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* border:  1px solid black; */
+}
+.PageOne{
+    background-color: #f0f8ff;
+    margin-top: 10px;
+    
+    padding: 3%;
+    border-radius:10px;    
+    /* border:  1px solid black; */
+}
+/* #status{
+    font-size: 200%;
+} */
+#status{
+    font-size: 20px;
+    display: block;
+    border-bottom: 1px solid lightgray;
+}
+#Table{
+    border-bottom: 1px solid lightgray;
+}
+.online{
+    float: right;
+    font-size: small;
+    /* border:  1px solid black; */
+}
+td:first-child{
+    opacity: 40%;
+}
+td{
+    padding: 5px;
+    width: 30%;
+    /* border:  1px solid black; */
+}
+#info{
+    display: flex;
+}
+.PageRight{
+    width: 50%;
+}
+#pageLeft{
+    width: 20%;
+}
+#info >div{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 10px;
+    /* border:  1px solid black; */
+}
+#info >div>span{
+    display: block;
+}
+#info >div>span:nth-child(2){
+    opacity: 50%;
+    /* border:  1px solid black; */
+}
+#PageTwo{
+    margin-top: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    /* border:  1px solid black; */
+}
+.headder{
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 10px 0px;
+    text-align:left;
+    color: black;
+    /* border:  1px solid black; */
+}
+.headder>span:nth-child(2){
+    opacity: 50%;
+}
+#Aman{
+    display: flex;
+    /* border:  1px solid black; */
+    justify-content: space-evenly;
+}
+#Aman >img{
+    /* text-align: center; */
+    width: 23%;
+    /* border:  1px solid black; */
+}
+.PageThree{
+    margin: 10px 00px 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    
+    /* border:  1px solid black; */
+}
+#head>div>img{
+    border-radius: 50%;
+    width: 10rch;
+    /* border:  1px solid black; */
+}
+#head{
+    display: flex;
+    width: 100%;
+    padding:10px 0px 0px 0px;
+    /* border:  1px solid black; */
+}
+#head>div:nth-child(2){
+    text-align: center;
+    /* border:  1px solid black; */
+    padding-left: 10px;
+    padding-top: 20px;
+}
+#head>div:nth-child(2)>span:nth-child(3){
+    opacity: 50%;
+}
+#head>div:nth-child(2)>span:nth-child(1){
+    color: blue;
+    font-size: large;
+}
+.text{
+    padding: 1%;
+    /* border:  1px solid black; */
+}

@@ -1,0 +1,196 @@
+.container{
+    background-color: lightgray;
+    border-radius: 30px;
+    border: 10px solid silver;
+}
+#header {
+    background-color: rgb(76,117,163);
+    display: flex;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#header > span {
+    padding: 5px;
+    color: aliceblue;
+    font-size: large;
+    margin-left: 13%;
+}
+#header>input{
+    background: black;
+    padding: 5px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    border-color:none;
+    margin-left: 5%;
+    opacity: 60%;
+}
+#header>input:hover{
+    color:white;
+    opacity: 100%;
+}
+.online>a{
+    text-decoration: none;
+}
+#page{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+#page>div{
+    margin-top: 20px;
+}
+#leftPage{
+    width: 10%;    
+}
+#leftPage >span{
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+    display: block;   
+}
+img{
+    border-radius: 50%;  
+}
+#centerPage{
+    width: 40%;
+    display: block;
+}
+.friend{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    padding:2%;
+}
+.friend>div>div>a:hover{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(67,30,200);
+}
+.friend>div>div>a{
+    font-size: 100%;
+    text-decoration: none;
+}
+span>a{
+    text-decoration: none;
+    color: gray;
+}
+.friend >div{
+    width: 100%;
+}
+.friend>div>div:nth-child(1){
+    color: rgb(76,117,163);
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif
+}
+.friend>div>:nth-last-child(-n+3){
+    opacity: 60%;
+}
+.friend>div>div{
+    margin: 5px;
+}
+#centerPage >div{
+    margin-bottom: 2px;   
+}
+.headCenter{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.head >span{
+    font-size: 20px;
+}
+.head{
+    margin: 2%;
+}
+.head>span:nth-child(2){
+    opacity: 60%;
+}
+.buttom{
+    margin-left: auto;
+    width: 20%;
+}
+.button{
+    border:  1px solid black;
+    background-color: rgb(76, 117, 163);  ;
+    color: white;
+    margin: 6%;
+    width: 90%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.button:active{
+    background-color:lightgray;
+}
+.online{
+    float: right;
+}
+.Search>input{
+    width: 99.3%;
+    height:30px;
+    border: none;
+}
+input{
+    transition: background-color 1s ease;
+}
+input:hover{
+    background-color: rgb(76, 117, 163);
+    opacity: 70%;
+}
+.pageOneRight{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.focus{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: left;
+    padding:5%;
+    border: none;
+}
+.focus:focus{
+    background-color: rgb(76, 117, 163);
+}
+#pageRight{
+    display: block;
+    width: 20%;
+}
+.pageTwoRight{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.migthFriend{
+    display: flex;
+    height: 60px;
+    padding: 2%;
+}
+.pageTwoRight>div>span{
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.pageTwoRight>div:nth-child(1){
+    padding: 5%;
+}
+.info>div:nth-child(1){
+    color: rgb(76, 117, 163);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.info>div:nth-last-child(-n+2){
+    opacity: 60%;
+}
+.migthFriend>div>img{
+    width: 100%;
+}
+.info{
+    margin-left: 6%;
+    width: 100%;
+}
